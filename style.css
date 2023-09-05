@@ -1,0 +1,285 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+/* Windows 98 font */
+body {
+  font-family: "MS Sans Serif", "Tahoma", sans-serif;
+}
+
+/* Windows 98 background color */
+body {
+  background-color: #008080;
+}
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    margin: 0;
+    padding-top: 20px;
+  }
+
+  h2 {
+    text-align: center;
+    color: #333;
+    margin: 0;
+    
+  }
+
+  h3 {
+    text-decoration: none;
+    font-weight: initial;
+    text-align: center;
+    color: #333;
+    margin: 0;
+  }
+  
+  p {
+    font-size: 17px;
+    margin: 5%;
+    color: black;
+  }
+
+  a {
+    margin: 5%;
+  }
+
+  img{
+    display: block;margin: auto;
+  }
+
+  .Video {
+    display: block;
+    margin: auto;
+    width:fit-content;
+  }
+
+  .List p {
+    margin-bottom: 2px;
+    margin-top: 0;
+  }
+
+  .AppList {
+    margin-top: 20px;
+  }
+
+  .AppList a {
+    margin: 8px;
+    margin-bottom: 0;
+  }
+
+  .AppIcon {
+    display: inline-block;
+    text-align: center;
+    margin-left: 10px;
+    cursor: pointer;
+    width: 80px;
+    text-decoration: none;
+  }
+
+  .AppIcon p {
+    color: whitesmoke;
+    margin: 0;
+  }
+
+  .AppIcon img {
+    width: 50px; /* Adjust image width as needed */
+    height: 50px;
+    display:inline;
+  }
+
+  .AppIcon a {
+    width: fit-content;
+    margin: 0;
+  }
+  
+  .AppItemList {
+    display: grid;
+    grid-template-columns: repeat(3, 120px);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content:space-around;
+  }
+
+  .AppItemList p {
+    color: black;
+  }
+
+  .start-bar {
+    padding:2px;
+    box-shadow:inset 1px 0 #fff;
+    display:block;
+    background-color:silver;
+    bottom:0;
+    left:0;
+    right:0;
+    border-top:1px solid #f4f4f4;
+    border-bottom:1px solid #4e4e4e;
+    position:fixed;
+
+  }
+
+  .start-button {
+    padding:2px;
+    background-color:silver;
+    display: inline-block;
+    box-shadow:inset 2px 0 #f4f4f4;
+    border-top:2px solid #f4f4f4;
+    border-bottom:2px solid #4e4e4e;
+    border-right:2px solid #4e4e4e;
+  }
+
+  .start-button p {
+    color: black;
+    font-weight: bold;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+  }
+
+  
+  .taskbar-link {
+    bottom: 0;
+    left: 5px;
+    margin: 0pt;
+    position: relative;
+    padding-left: 25px;
+  }
+
+  .taskbar-link img {
+    position: absolute;
+    bottom: 0; /* adjust to suit requirements */
+    left: 0;
+    padding-left: 0px;
+    width: 22px;
+    height: 22px;
+  }
+
+  .clock-button {
+    float: right;
+    padding:2px;
+    background-color:#bfbfbf;
+    box-shadow:inset 2px 0 #4e4e4e;
+    border-top:2px solid #4e4e4e;
+    border-bottom:2px solid #f4f4f4;
+    border-right:2px solid #f4f4f4;
+  }
+
+  .clock-button p{
+    float: right;
+    padding-left: 10px;
+    color: black;
+  }
+
+  .window {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .music-window {
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+    display: none;
+  }
+
+  .window-border {
+    padding: 5px;
+    background-color: silver;
+    box-shadow:inset 2px 0 #fff;
+    border-top:2px solid #f4f4f4;
+    border-bottom:2px solid #4e4e4e;
+    border-right:2px solid #4e4e4e;
+  }
+
+  .window-bar {
+    padding: 5px;
+    background:#08216b;
+  }
+
+  .window-bar p {
+    color: whitesmoke;
+    font-weight: bold;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+  }
+
+  .close-button {
+    padding-top: 2px;
+    padding-right: 3px;
+    padding-bottom: 2px;
+    padding-left: 3px;
+    background-color:silver;
+    float: right;
+    box-shadow:inset 2px 0 #fff;
+    border-top:2px solid #f4f4f4;
+    border-bottom:2px solid #4e4e4e;
+    border-right:2px solid #4e4e4e;
+    cursor: pointer;
+  }
+
+  
+  .arrow {
+    width: 30px;
+    height: 30px;
+    padding-top: 2px;
+    padding-right: 3px;
+    padding-bottom: 2px;
+    padding-left: 3px;
+    background-color:silver;
+    float: right;
+    box-shadow:inset 2px 0 #fff;
+    border-top:2px solid #f4f4f4;
+    border-bottom:2px solid #4e4e4e;
+    border-right:2px solid #4e4e4e;
+    cursor: pointer;
+  }
+
+  .profile {
+    height: 250px;
+    float: right;display: block;padding: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color:silver;
+    box-shadow:inset 2px 0 #fff;
+    border-top:2px solid #f4f4f4;
+    border-bottom:2px solid #4e4e4e;
+    border-right:2px solid #4e4e4e;
+  }
+
+  .photo-container {
+    position: relative;
+    height:450px;
+  }
+
+  .photo {
+    height: 350px;
+    width: auto;
+  }
+
+  @media screen and (max-width: 481px){
+
+
+    .profile{
+      height: 150px;
+    }
+  
+    .Video iframe {
+      width: 300px;
+    }
+
+    .photo-container {
+      position: relative;
+      height:400px;
+    }
+
+    .photo {
+      width: 300px;
+      height: auto;
+    }
+
+  }
